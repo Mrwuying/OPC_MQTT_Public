@@ -66,13 +66,18 @@ COM ID:1
 #### ②切换到【设备列表】，点击【编辑INI文件】，将会开启INI配置文件所在的目录
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721294828615-3a2c9d7c-bde4-49b9-93fd-3f039d5d10ea.png#averageHue=%23d0d0cf&clientId=ub85352ab-5b31-4&from=paste&height=638&id=u694de2ea&originHeight=798&originWidth=1326&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=44269&status=done&style=none&taskId=u73522434-9c91-43ee-9030-f089316d977&title=&width=1060.8)
 编辑ini配置文件（批量配置点位推荐方式）
+
 为什么使用ini文件？考虑到表格导入会有各种各样的格式问题，文本相对来说好一点，最多考虑编码问题就好
+
 **注意：手动编辑INI文件时，windows自带的记事本并不是一个好的选择，它保存时并不会按照原有编码进行保存，而是根据你的windows电脑语言区域进行选择，比如中国-简体中文，将会以"UTF-8 sig"的编码保存**
+
 这里推荐notepad++，sublime Text，VS Code作为文本编辑器![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721295163511-165d6395-23de-4875-8168-3e7a459d7f21.png#averageHue=%23e3e4b4&clientId=ub85352ab-5b31-4&from=paste&height=299&id=ua21c196c&originHeight=374&originWidth=1411&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=117021&status=done&style=none&taskId=uc758cb97-7bc4-4abe-bcda-326cbd3f7cc&title=&width=1128.8)
 item ID主要对应的是导出表格的这部分内容
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721295377340-8867516b-52c7-44f7-b5e5-787abe6d62eb.png#averageHue=%23f4f3f2&clientId=ub85352ab-5b31-4&from=paste&height=599&id=u3632390f&originHeight=749&originWidth=1328&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=105337&status=done&style=none&taskId=u942f2a7a-6b33-4b34-b630-46b6c36eca3&title=&width=1062.4)
 打开导出的CSV文件，Item ID列的内容就是INI文件中的对应Item ID内容
+
 一个group最大添加的item id数量与item id的字节数量有关，最大65535字节
+
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721295402922-7594d9ed-044d-4f61-815f-a26c29eda34c.png#averageHue=%23f3f1f0&clientId=ub85352ab-5b31-4&from=paste&height=371&id=uf0ea39bd&originHeight=464&originWidth=876&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=47259&status=done&style=none&taskId=ua980d05f-4d8a-43bc-850f-7d86f4c5e3c&title=&width=700.8)
 #### ③保存好ini配置文件后，点击【重启中间件】
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721295503399-797afcfb-e76c-4d52-ad0f-a256aaa0a186.png#averageHue=%23d1d0d0&clientId=ub85352ab-5b31-4&from=paste&height=638&id=u4858ca77&originHeight=798&originWidth=1326&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=45527&status=done&style=none&taskId=ua5c2f7bf-a90d-4f3b-9e36-7449c219626&title=&width=1060.8)
@@ -90,7 +95,9 @@ item ID主要对应的是导出表格的这部分内容
 表格将会多出一行，接下来填写样例信息，我选择在KepServer中配置了一个S7-1200的PLC模拟数据
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631668462-0396857b-ee02-4edf-a5c2-8f92d1f5f9d6.png#averageHue=%23d3d3d2&clientId=u68e6f105-ff16-4&from=paste&height=638&id=u98eaefca&originHeight=797&originWidth=1331&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=42590&status=done&style=none&taskId=u1721f7f6-cf78-4e54-bfd5-b29a2fa78ff&title=&width=1064.8)
 S7-1200的PLC模拟数据如下
+
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631757488-963a157f-05a2-4036-b39f-f2c1c1fabdbe.png#averageHue=%23f6f5f5&clientId=u68e6f105-ff16-4&from=paste&height=107&id=ua413812f&originHeight=134&originWidth=743&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=10430&status=done&style=none&taskId=ub91f6a38-01b4-41ee-9596-9b812081e6d&title=&width=594.4)
+
 配置该点位至程序中，进行采集，其中设备IP指的是OPC Server的IP
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631989528-7c08c0ab-ba98-4032-a4b6-f2695fb82b83.png#averageHue=%23d1d1d1&clientId=u68e6f105-ff16-4&from=paste&height=638&id=u6df2c29d&originHeight=797&originWidth=1331&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=241002&status=done&style=none&taskId=u3227e662-0ed1-45de-9a49-588f9119bfd&title=&width=1064.8)
 保存编辑——重启中间件
