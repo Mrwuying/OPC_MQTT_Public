@@ -91,6 +91,7 @@ item ID主要对应的是导出表格的这部分内容
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631668462-0396857b-ee02-4edf-a5c2-8f92d1f5f9d6.png#averageHue=%23d3d3d2&clientId=u68e6f105-ff16-4&from=paste&height=638&id=u98eaefca&originHeight=797&originWidth=1331&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=42590&status=done&style=none&taskId=u1721f7f6-cf78-4e54-bfd5-b29a2fa78ff&title=&width=1064.8)
 S7-1200的PLC模拟数据如下
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631757488-963a157f-05a2-4036-b39f-f2c1c1fabdbe.png#averageHue=%23f6f5f5&clientId=u68e6f105-ff16-4&from=paste&height=107&id=ua413812f&originHeight=134&originWidth=743&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=10430&status=done&style=none&taskId=ub91f6a38-01b4-41ee-9596-9b812081e6d&title=&width=594.4)
+
 配置该点位至程序中，进行采集，其中设备IP指的是OPC Server的IP
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/25484337/1721631989528-7c08c0ab-ba98-4032-a4b6-f2695fb82b83.png#averageHue=%23d1d1d1&clientId=u68e6f105-ff16-4&from=paste&height=638&id=u6df2c29d&originHeight=797&originWidth=1331&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=241002&status=done&style=none&taskId=u3227e662-0ed1-45de-9a49-588f9119bfd&title=&width=1064.8)
 保存编辑——重启中间件
