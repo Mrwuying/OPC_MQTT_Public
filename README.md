@@ -4,9 +4,7 @@ OPC UA为免费的工业协议标准，访问效率高性能好
 而item ID又与device ID和group ID有关
 ### 演示视频
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/Mrwuying/OPC_MQTT_Public/blob/main/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4" type="video/mp4">
-</video>
+<video src="https://github.com/Mrwuying/OPC_MQTT_Public/blob/main/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4" width="800px" height="600px" controls="controls"></video>
   
 ### 0、中间件运行的前置条件
 #### 前置条件1：运行需要.NET 6.0支持
