@@ -2,7 +2,10 @@
 OPC UA为免费的工业协议标准，访问效率高性能好
 对于OPC UA Client而言，成功连接OPC服务器需要知道，服务器IP地址，服务器servername，节点的item id
 而item ID又与device ID和group ID有关
+### 演示视频
 
+<iframe height=498 width=510 src="[在线视频链接](https://github.com/Mrwuying/OPC_MQTT_Public/blob/main/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4)">
+  
 ### 0、中间件运行的前置条件
 #### 前置条件1：运行需要.NET 6.0支持
 下载地址:[https://download.visualstudio.microsoft.com/download/pr/23c7bf0d-e22d-4372-bcb2-292eb36a5238/11af494be409759f46b679ab22e65a58/dotnet-sdk-6.0.424-win-x64.exe](https://download.visualstudio.microsoft.com/download/pr/23c7bf0d-e22d-4372-bcb2-292eb36a5238/11af494be409759f46b679ab22e65a58/dotnet-sdk-6.0.424-win-x64.exe)
